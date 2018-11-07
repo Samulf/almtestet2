@@ -16,5 +16,10 @@ namespace almtestet2
         {
             return n * 3;
         }
+
+        public int Fyrpla(int n)
+        {
+            return n * 4;
+        }
     }
 }

@@ -31,5 +31,14 @@ namespace UnitTestProject1
             var expected = 15;
             Assert.AreEqual(expected, res);
         }
+
+        [TestMethod]
+        public void MakaperFyrpla()
+        {
+            var m = new Makaper();
+            var res = m.Fyrpla(5);
+            var expected = 20;
+            Assert.AreEqual(expected, res);
+        }
     }
 }
