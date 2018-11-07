@@ -11,5 +11,10 @@ namespace almtestet2
         {
             return n * 2;
         }
+
+        public int Tripla(int n)
+        {
+            return n * 3;
+        }
     }
 }

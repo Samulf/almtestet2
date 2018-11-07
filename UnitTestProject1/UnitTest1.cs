@@ -10,15 +10,25 @@ namespace UnitTestProject1
         public void TestMethod1()
         {
             int hej = 5;
-            Assert.AreEqual(7, hej);
+            int expected = 5;
+            Assert.AreEqual(expected, hej);
         }
 
         [TestMethod]
-        public void MakaperTest1()
+        public void MakaperDubla()
         {
             var m = new Makaper();
             var res = m.Dublera(5);
             var expected = 10;
+            Assert.AreEqual(expected, res);
+        }
+
+        [TestMethod]
+        public void MakaperTripla()
+        {
+            var m = new Makaper();
+            var res = m.Tripla(5);
+            var expected = 15;
             Assert.AreEqual(expected, res);
         }
     }
