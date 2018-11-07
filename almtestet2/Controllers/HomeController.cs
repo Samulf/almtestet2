@@ -12,6 +12,7 @@ namespace almtestet2.Controllers
     {
         public IActionResult Index()
         {
+            string pelle = 14;
             return View();
         }
 
